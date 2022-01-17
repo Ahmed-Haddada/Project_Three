@@ -1189,7 +1189,7 @@
     position: relative;
   }
   .Latest__events .dots {
-    background-image: url(../imgs/dots.png);
+    background-image: url(../image/dots.png);
     position: absolute;
     width: 204px;
     height: 186px;
@@ -1332,7 +1332,7 @@
     background-color: var(--section-background-Color);
   }
   .pricing-plans .dots {
-    background-image: url(../imgs/dots.png);
+    background-image: url(../image/dots.png);
     position: absolute;
     width: 204px;
     height: 186px;
@@ -1559,7 +1559,7 @@
   .our_awsome {
     padding-top: var(--main-paddind);
     padding-bottom: var(--main-paddind);
-    background-image: url(../imgs/stats.jpg);
+    background-image: url(../image/stats.jpg);
     min-height: 300px;
     position: relative;
     background-size: cover;
@@ -1642,7 +1642,7 @@
     }
   }
   .discount .discount__desc {
-    background-image: url(../imgs/discount-background1.jpg);
+    background-image: url(../image/discount-background1.jpg);
     background-size: cover;
     color: white;
     flex-basis: 50%;
@@ -1655,7 +1655,7 @@
   }
   @keyframes back {
     to {
-      background-image: url(../imgs/discount-background2.jpg);
+      background-image: url(../image/discount-background2.jpg);
     }
   }
   .discount .discount__desc::before {
