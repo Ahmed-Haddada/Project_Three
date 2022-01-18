@@ -755,21 +755,22 @@ header .mega-menu .links li a i {
   z-index: -1;
 }
 
-.features .box:hover .more a::before {
+.features .box:hover .more a {
   width: 100%;
   background-color: red;
 }
 
-.features .box:nth-of-type(2) .more a::before {
+.features .box:nth-of-type(2):hover .more a {
   background-color: var(--bleu-color);
 }
 
-.features .box:last-of-type .more a::before {
+.features .box:last-of-type:hover .more a{
   background-color: var(--green-color);
 }
 
 .features .box:hover .more a {
   color: white;
+ 
 }
 
 /* End Feautres */
