@@ -1370,6 +1370,12 @@ width: 100%;
 .pricing-plans .container .box-popular {
   top: -30px;
 }
+@media (max-width:767px) {
+  .pricing-plans .container .box-popular{
+    top: 0;
+  }
+  
+}
 .pricing-plans .container .box::before,
 .pricing-plans .container .box::after,
 .pricing-plans .container .box-popular::before,
